@@ -1,0 +1,48 @@
+body {
+    background-color: RGB(252,166,201);
+}
+
+h1:hover {
+    color: black;
+}
+
+h1, h3, h4 {
+    color: white;
+    text-align: center;
+}
+
+li{
+    font-weight: 600;
+    padding: 2px;
+    font-weight: bold;
+    list-style-position: inside;
+}
+
+ol.centered_list li{
+    text-align: left;
+    margin-left: 30%;
+}
+
+img {
+    width: 15%;
+    display: block;
+    margin: 0 auto;
+}
+
+p {
+    text-align: center;
+} 
+
+.bold_para {
+    font-weight: bold;
+    text-align: center;
+} 
+
+.quote_para {
+    font-weight: bold;
+    color: white;
+    font-size: 35px;
+
+    position:sticky;
+    text-align: center;
+}
