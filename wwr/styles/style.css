@@ -15,6 +15,11 @@ nav a {
 
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
+    color: #FFE965;
+}
+
+#hero-msg h4 {
+    color: white;
 }
 
 .button-box {
@@ -32,6 +37,8 @@ main section img {
 
 #background {
     height: 725px;
+    grid-column: 1/11;
+    grid-row: 4/9;
 }
 
 body {
@@ -43,9 +50,10 @@ body {
 }
 
 header {
-    background-color: #007EA7;
+    background-color: rgb(0, 126, 167, .7);
     color: #683935;
-
+    display: grid;
+    grid-template-columns: 150px auto;
 }
 
 nav a:hover {
@@ -77,12 +85,18 @@ nav a:hover {
     background-color: #003B5F;
     line-height: 1.5em;
     padding: 35px;
+    grid-column: 6/10;
+    grid-row: 6/7;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 
 footer {
     background-color: #5CB8D3;
     padding: 25px 50px;
     margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .home-title {
@@ -127,6 +141,7 @@ footer a:hover {
 .icon {
     width: 80px;
     padding-top: 10px;
+    height:90px
 }
 
 #hero-img {
@@ -143,6 +158,8 @@ h2 {
 
 #logo_link {
     padding-top: 5px;
+    justify-self: center;
+    align-self: center;
 }
 
 footer .social img {
@@ -155,4 +172,62 @@ footer .social img {
 
 .card-img {
     border: 10px solid #007ea7;
+    width: 100%;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.card-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+
+.mountains {
+    width: 100%;
+    grid-column: 2/7;
+    grid-row: 5/8;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.rivers-card, {
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+
+.camping-card {
+    grid-column: 5/7;
+    grid-row: 2/3;
+}
+
+.rapids-card {
+    grid-column: 8/10;
+    grid-row: 2/3;
 }
