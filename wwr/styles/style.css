@@ -270,7 +270,7 @@ footer .social img {
     grid-template-rows: 1fr 1fr;
     margin-top: -100px;
     margin-bottom: 0;
-    height: 675px;
+    height: 625px;
 }
 
 #faqs-hero-box {
@@ -312,7 +312,7 @@ footer .social img {
 }
 
 .question1-card, .question2-card, .question3-card, .question4-card, .question5-card, .question6-card {
-    margin: 50px 0;
+    margin: 75px 0;
 }
 
 .question1-card:hover, .question2-card:hover, .question3-card:hover, .question4-card:hover, .question5-card:hover, .question6-card:hover {
@@ -356,9 +356,19 @@ footer .social img {
 }
 
 
-
+/* ******************************************************************* */
+/* FAQs Home Title size on diferente screen sizes Exclusive Mobile CSS */
+/* ******************************************************************* */
 
 @media screen and (max-width: 1400px) {
+    #faqs-hero {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr ;
+        grid-template-rows: 1fr 1fr;
+        margin-top: -100px;
+        margin-bottom: 0;
+        height: 515px;
+    }
     .faqs-home-title {
         margin-top: 25%;
         font-size: 1.2em;;
@@ -366,13 +376,23 @@ footer .social img {
 }
 
 @media screen and (max-width: 1150px) {
+    #faqs-hero {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr ;
+        grid-template-rows: 1fr 1fr;
+        margin-top: -100px;
+        margin-bottom: 0;
+        height: 450px;
+    }
     .faqs-home-title {
         margin-top: 20%;
         font-size: 1em;;
     }
 }
 
-/*Smaller devices CSS*/
+/* ******************* */
+/* Smaller devices CSS */
+/* ******************* */
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid, .faqs-home-grid {
@@ -431,10 +451,30 @@ footer .social img {
         text-align: center;
     }
     .faqs-home-title {
-        font-size: 0.8em;
+        font-size: 0.6em;
         color: #003B5F;
         margin: 0;
     }
-
+    
+    .question-img {
+        margin: 20px;
+        width: 80%;
+        box-shadow: 5px 5px 10px #683935;
+    }
+    
+    .question-img:hover{
+        transform: none;
+    }
+    
+    .question1-card, .question2-card, .question3-card, .question4-card, .question5-card, .question6-card {
+        margin: 40px;
+        align-self: center;
+    }
+    
+    .question1-card:hover, .question2-card:hover, .question3-card:hover, .question4-card:hover, .question5-card:hover, .question6-card:hover {
+        transform: none;
+        margin: 40px;
+        align-self: center;
+    }
 }
 
