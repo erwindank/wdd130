@@ -148,7 +148,8 @@ main section {
 #img1 {
     grid-column: 1/3;
     grid-row: 1/2;
-    padding: 40px;
+    padding: 20px;
+    padding-top: 15%;
     background-color:#A4DDE7;
 }
 
@@ -156,6 +157,7 @@ main section {
     grid-column: 3/6;
     grid-row: 1/2;
     padding: 40px;
+    padding-top: 6%;
     background-color:#A4DDE7;
 
 }
@@ -163,7 +165,8 @@ main section {
 #img2 {
     grid-column: 4/6;
     grid-row: 2/3;
-    padding: 40px;
+    padding: 20px;
+    padding-top: 15%;
     background-color:#75CFEC;
 }
 
@@ -171,6 +174,7 @@ main section {
     grid-column: 1/4;
     grid-row: 2/3;
     padding: 40px;
+    padding-top: 6%;
     background-color:#75CFEC;
 }
 
@@ -179,15 +183,13 @@ main section {
     grid-row: 3/4;
     padding-left: 40px;
     padding-right: 40px;
-    padding-bottom: none;
+    padding-bottom: 0px;
     padding-top: 8%;
     background-color:#A4DDE7;
 }
 
-#image-display {
-    grid-column: 1/6;
-    grid-row: 4/5;
-    margin: auto;
+#img-type1, #img-type2, #img-type3, #img-type4, #img-type5 {
+    width: 85%;
 }
 
 #img-type1 {
@@ -306,7 +308,6 @@ footer .social img {
 @media screen and (max-width: 1360px) {
     #img-type1, #img-type2, #img-type3, #img-type4, #img-type5 {
         width: 90%;
-        margin
     }
 }
 
@@ -351,12 +352,12 @@ footer .social img {
    
     .section-img {
         width: 90%;
-        box-shadow: 2.5 2.5px 5px #6f7364;
+        box-shadow: 2.5px 2.5px 5px #6f7364;
     }
     
     #img1 {
         padding: 20px;
-        padding-top: 7%;
+        padding-top: 12%;
     }
     
     #paragraph1 {
@@ -366,9 +367,9 @@ footer .social img {
     }
     
     #img2 {
-        padding: 0px;
-        padding-top: 9%;
-        padding-right: 15%;
+        padding: 20px;
+        padding-top: 12%;
+
     }
     
     #paragraph2 {
@@ -380,7 +381,11 @@ footer .social img {
         padding-right: 100px;
         padding-top: 6%;
         background-color:#A4DDE7;
-        font-size: 85%;
+        font-size: 95%;
+    }
+
+    #img-type1, #img-type2, #img-type3, #img-type4, #img-type5 {
+        width: 85%;
     }
     
     .msg {
@@ -397,38 +402,43 @@ footer .social img {
 @media screen and (max-width: 1280px) {
     .msg {
         padding-right: 5%;
+    }
 }
-
 
 /* --------------------------- */
 /* --------------------------- */
 /* --------------------------- */
 
 @media screen and (max-width: 1265px) {
+    #img1 {
+        padding-right: 0%;
+        padding-top: 25%;
+    }
+
     #paragraph1 {
-        padding-right: 25%;
+        font-size: 90%;
+        padding: 10.5%;;
     }
     
     #img2 {
-        padding-right: 20%;
-        padding-top: 15%;
+        padding-right: 0%;
+        padding-top: 25%;
     }
 
     #paragraph2 {
-        font-size: 75%;
+        font-size: 90%;
         padding: 10.5%;
     }
 
     #paragraph3 {
         padding-left: 120px;
-        padding-right: 130px;
+        padding-right: 120px;
         padding-top: 8%;
-        background-color:#A4DDE7;
+        font-size: 95%;
     }
     
     #img-type1, #img-type2, #img-type3, #img-type4, #img-type5 {
         width: 95%;
-        margin
     }
 
     .msg {
@@ -460,32 +470,36 @@ footer .social img {
     }
 
     #img1 {
-        padding-top: 15%;
+        padding-top: 30%;
     }
 
     #paragraph1 {
         padding-right: 15%;
-        font-size: 65%;
+        font-size: 80%;
         padding-top: 12%;
     }
     
     #img2 {
-        padding-right: 20%;
-        padding-top: 18%;
+        padding-right: 10%;
+        padding-top: 30%;
     }
 
     #paragraph2 {
         font-size: 75%;
         padding: 10.5%;
-        font-size: 65%;
+        font-size: 80%;
     }
 
     #paragraph3 {
-        padding-left: 120px;
+        padding-left: 100px;
         padding-right: 100px;
-        padding-top: 8%;
+        padding-top: 10%;
         background-color:#A4DDE7;
-        font-size: 70%;
+        font-size: 90%;
+    }
+
+    #img-type1, #img-type2, #img-type3, #img-type4, #img-type5 {
+        width: 80%;
     }
 
     .msg {
@@ -534,6 +548,7 @@ footer .social img {
     }
     #img1 {
         padding: 8%;
+        padding-bottom: 1%;
     }
     #paragraph1 {
         padding: 14%;
@@ -544,6 +559,7 @@ footer .social img {
     
     #img2 {
         padding: 8%;
+        padding-bottom: 1%;
     }
 
     #paragraph2 {
@@ -554,8 +570,8 @@ footer .social img {
     }
 
     #paragraph3 {
-        padding-left: 40px;
-        padding-right: 40px;
+        padding-left: 50px;
+        padding-right: 50px;
         padding-top: 8%;
         padding-bottom: 8%;
         font-size: 20px;
@@ -571,30 +587,34 @@ footer .social img {
         width: 100%;
         margin: -25px;
         font-size: 30px;
-        padding-top: 10%;
+        padding-top: 5%;
         padding-bottom: 10%;
     }
     footer {
         margin-top: 25px;
     }
-
+}
 
 
 @media screen and (max-width: 730px) {
     #hero-msg {
         margin-top: 40px;
     }
+
     #hero {
         margin-top: 0px;
         margin-bottom: -50px;
         font-size: 40px;
     }
+
     #hero-msg h1 {
         font-size: 30px;
     }
+
     #hero-msg h4 {
         font-size: 20px;
     }
+
     .button {
         font-size: 15px;
         padding: 15px 25px 15px 25px;
@@ -602,10 +622,15 @@ footer .social img {
         font-weight: bold;
     }
 
+    #img1 {
+        padding: 4%;
+        padding-top: 15%;
+    }
+
     #paragraph1 {
-        padding-right: 7%;
-        padding-top: 1%;
         font-size: 20px;
+        padding: 10.5%;
+        padding-top: 1%;
     }
     
     #img2 {
@@ -630,13 +655,14 @@ footer .social img {
     #img-type1, #img-type2, #img-type3, #img-type4, #img-type5 {
         width: 50%;
         padding-top: 10%;
-        padding-bottom: 10%;
+        padding-bottom: 15%;
         padding-left: 25%;
     }
 
     .msg {
-        padding: 10%;
-        padding-top: 5%;
+        padding: 5%;
+        padding-bottom: 15%;
         margin-bottom: -25px;
     }
+
 }
