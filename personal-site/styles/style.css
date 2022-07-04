@@ -288,14 +288,238 @@ footer .social img {
 }
 
 
-/* ******************* */
-/* Smaller devices CSS */
-/* ******************* */
+/* ----SMALLER SCREENS CSS---- */
+/* --------------------------- */
+/* --------------------------- */
+/* --------------------------- */
 
-@media screen and (max-width: 900px) {
-    #hero, .home-grid, .faqs-home-grid {
-        display: block;
+@media screen and (max-width: 1435px) {
+    .msg {
+        padding-top: 10%;
+    }
+}
+
+/* --------------------------- */
+/* --------------------------- */
+/* --------------------------- */
+
+@media screen and (max-width: 1360px) {
+    #img-type1, #img-type2, #img-type3, #img-type4, #img-type5 {
+        width: 90%;
+        margin
+    }
+}
+
+/* --------------------------- */
+/* --------------------------- */
+/* --------------------------- */
+
+@media screen and (max-width: 1325px) {
+    #hero {
+        margin-bottom: -140px;
+        font-size: 20px;
+    }
+    
+    #hero-img {
+        width: 100%;
+    }
+    
+    #hero-msg {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        margin-top: 150px;
+    }
+       
+    #hero-msg h1, #hero-msg h4 {
+        text-align: center;
+        color: #9CFFDB;
+    }
+    
+    #hero-msg h4 {
+        color: white;
+    }
+    
+    .button-box {
+        text-align: center;
+        color: white;
+        font-weight:lighter;
+    }
+    
+    .button {
+        padding: 15px 30px 15px 30px;
+    }
+   
+    .section-img {
+        width: 90%;
+        box-shadow: 2.5 2.5px 5px #6f7364;
+    }
+    
+    #img1 {
+        padding: 20px;
+        padding-top: 7%;
+    }
+    
+    #paragraph1 {
+        padding-top: 4%;
+        padding-right: 20%;
+        font-size: 85%;
+    }
+    
+    #img2 {
+        padding: 0px;
+        padding-top: 9%;
+        padding-right: 15%;
+    }
+    
+    #paragraph2 {
+        font-size: 85%;
+    }
+    
+    #paragraph3 {
+        padding-left: 80px;
+        padding-right: 100px;
+        padding-top: 6%;
+        background-color:#A4DDE7;
+        font-size: 85%;
+    }
+    
+    .msg {
+        padding-top: 7%;
+    }
+    
+}
+
+
+/* --------------------------- */
+/* --------------------------- */
+/* --------------------------- */
+
+@media screen and (max-width: 1280px) {
+    .msg {
+        padding-right: 5%;
+}
+
+
+/* --------------------------- */
+/* --------------------------- */
+/* --------------------------- */
+
+@media screen and (max-width: 1265px) {
+    #paragraph1 {
+        padding-right: 25%;
+    }
+    
+    #img2 {
+        padding-right: 20%;
+        padding-top: 15%;
+    }
+
+    #paragraph2 {
+        font-size: 75%;
+        padding: 10.5%;
+    }
+
+    #paragraph3 {
+        padding-left: 120px;
+        padding-right: 130px;
+        padding-top: 8%;
+        background-color:#A4DDE7;
+    }
+    
+    #img-type1, #img-type2, #img-type3, #img-type4, #img-type5 {
+        width: 95%;
+        margin
+    }
+
+    .msg {
+        padding-top: 9%;
+    }
+
+    footer a, footer h3 {
+        font-size: 90%;
+    }
+}
+
+
+
+
+/* --------------------------- */
+/* --------------------------- */
+/* --------------------------- */
+
+@media screen and (max-width: 1175px) {
+    #hero{
+        margin-bottom: -10px;
+    }
+    .logo {
+        width: 90px; 
+    }
+
+    #hero-msg {
+        margin-top: 120px;
+    }
+
+    #img1 {
+        padding-top: 15%;
+    }
+
+    #paragraph1 {
+        padding-right: 15%;
+        font-size: 65%;
+        padding-top: 12%;
+    }
+    
+    #img2 {
+        padding-right: 20%;
+        padding-top: 18%;
+    }
+
+    #paragraph2 {
+        font-size: 75%;
+        padding: 10.5%;
+        font-size: 65%;
+    }
+
+    #paragraph3 {
+        padding-left: 120px;
+        padding-right: 100px;
+        padding-top: 8%;
+        background-color:#A4DDE7;
+        font-size: 70%;
+    }
+
+    .msg {
+        padding-top: 9%;
+        padding-right: 0%;
+        padding-left: 3%;
+    }
+}
+
+
+/* --------------------------- */
+/* --------------------------- */
+/* --------------------------- */
+
+@media screen and (max-width: 1000px) {
+    #hero{
         height: auto;
+        margin-bottom: -10px;
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 50px;
+    }
+    #hero-msg h1 {
+        font-size: 50px;
+    }
+    #hero-msg h4 {
+        font-size: 30px;
+    }
+    .home-title{
+        margin: auto;
+    }
+    .home-grid {
+        display: block;
     }
     nav, footer {
         flex-direction: column;
@@ -304,75 +528,115 @@ footer .social img {
         display: block;
         padding: 15px;
     }
-    #hero {
-        margin-top: 0;
+    .logo {
+        width: 150px;
+        padding: 20%;
     }
-    #hero-msg {
-        margin-top: 0;
+    #img1 {
+        padding: 8%;
     }
-    #hero-msg h1 {
-        color: #683935;
+    #paragraph1 {
+        padding: 14%;
+        padding-top: 1%;
+        padding-bottom: 8%;
+        font-size: 20px;
     }
-    #hero-msg h4 {
-        display: none;
+    
+    #img2 {
+        padding: 8%;
     }
-    .home-title {
-        font-size: 25px;
-        color: #683935;
-    } 
-    .rivers-card, .camping-card, .rapids-card { 
-        margin: 50px auto;
-        width: 60%;
+
+    #paragraph2 {
+        padding: 14%;
+        padding-top: 1%;
+        padding-bottom: 8%;
+        font-size: 20px;
     }
-    #background {
-        display: none;
+
+    #paragraph3 {
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 8%;
+        padding-bottom: 8%;
+        font-size: 20px;
     }
-    .mountains, .msg {
-        width: 80%;
-        display: block;
-        margin: 0 auto;
+    
+    #img-type1, #img-type2, #img-type3, #img-type4, #img-type5 {
+        width: 50%;
+        padding-top: 10%;
+        padding-bottom: 15%;
+        padding-left: 24%;
+    }
+    .msg {
+        width: 100%;
+        margin: -25px;
+        font-size: 30px;
+        padding-top: 10%;
+        padding-bottom: 10%;
     }
     footer {
         margin-top: 25px;
     }
 
-    /* ****************************** */
-    /* FAQs Hero Exclusive Mobile CSS */
-    /* ****************************** */
-    #faqs-hero {
-        display: block;
-        height: auto;
-        margin-top: 0;
+
+
+@media screen and (max-width: 730px) {
+    #hero-msg {
+        margin-top: 40px;
     }
-    #faqs-hero-msg {
-        margin: 0;
-        text-align: center;
+    #hero {
+        margin-top: 0px;
+        margin-bottom: -50px;
+        font-size: 40px;
     }
-    .faqs-home-title {
-        font-size: 0.6em;
-        color: #003B5F;
-        margin: 0;
+    #hero-msg h1 {
+        font-size: 30px;
     }
-    
-    .question-img {
-        margin: 20px;
-        width: 80%;
-        box-shadow: 5px 5px 10px #683935;
+    #hero-msg h4 {
+        font-size: 20px;
     }
-    
-    .question-img:hover{
-        transform: none;
+    .button {
+        font-size: 15px;
+        padding: 15px 25px 15px 25px;
+        border-radius: 5px;
+        font-weight: bold;
     }
-    
-    .question1-card, .question2-card, .question3-card, .question4-card, .question5-card, .question6-card {
-        margin: 40px;
-        align-self: center;
+
+    #paragraph1 {
+        padding-right: 7%;
+        padding-top: 1%;
+        font-size: 20px;
     }
     
-    .question1-card:hover, .question2-card:hover, .question3-card:hover, .question4-card:hover, .question5-card:hover, .question6-card:hover {
-        transform: none;
-        margin: 40px;
-        align-self: center;
+    #img2 {
+        padding: 4%;
+        padding-top: 15%;
+    }
+
+    #paragraph2 {
+        font-size: 20px;
+        padding: 10.5%;
+        padding-top: 1%;
+    }
+
+    #paragraph3 {
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 8%;
+        padding-bottom: 8%;
+        font-size: 18px;
+    }
+    
+    #img-type1, #img-type2, #img-type3, #img-type4, #img-type5 {
+        width: 50%;
+        padding-top: 10%;
+        padding-bottom: 10%;
+        padding-left: 25%;
+    }
+
+    .msg {
+        padding: 10%;
+        padding-top: 5%;
+        margin-bottom: -25px;
     }
 }
-
