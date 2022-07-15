@@ -395,6 +395,12 @@ section.getstarted-msg {
     width: 75%;
     height: 75%;
 }
+.msg-icon {
+    float: left;
+}
+#whatsapp-number {
+    margin: o auto;
+}
 input[type=text], select {
     width: 100%;
     padding: 12px 20px;
